@@ -4,6 +4,7 @@ export interface Button {
     text: string;
     color: string;
     buttonWitdh?: boolean;
+    action: (action: string) => void;
 }
 
 export const naranja: string = '#FF9427'

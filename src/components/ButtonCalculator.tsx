@@ -3,9 +3,9 @@ import React from 'react';
 import {styles} from '../theme';
 import {Button} from '../interfaces';
 
-export const ButtonCalculator = ({text, color, buttonWitdh}: Button) => {
+export const ButtonCalculator = ({text, color, buttonWitdh, action}: Button) => {
   return (
-    <TouchableOpacity>
+    <TouchableOpacity onPress={() => action(text)}>
       <View
         style={{
           ...styles.button,
