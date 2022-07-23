@@ -21,12 +21,18 @@ export const styles = StyleSheet.create({
         fontSize: 30,
         textAlign: 'right',
     },
+    row: {
+        flexDirection: 'row',
+        justifyContent: 'center',
+        marginBottom: 18,
+        paddingHorizontal: 10,
+    },
     button: {
         height: 80,
         width: 80, 
-        backgroundColor: '#333',
         borderRadius: 100,
         justifyContent: 'center',
+        marginHorizontal: 10,
     },
     textButton: {
         textAlign: 'center',
